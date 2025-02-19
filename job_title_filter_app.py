@@ -31,8 +31,8 @@ def is_executive_title(title):
 # Streamlit App
 
 def main():
-    st.title("📋 Executive Job Title Scrubber App")
-    st.write("Upload your **Excel/CSV** file, auto-select **executive roles**, and download the cleaned file.")
+    st.title("ESI Executive Job Title Scrubber App")
+    st.write("Upload your **Excel/CSV** file from MiEdge, auto-select **executive roles**, and download the cleaned file.")
 
     # Step 1: Upload File
     uploaded_file = st.file_uploader("📤 Upload Excel/CSV File", type=["csv", "xlsx"])
