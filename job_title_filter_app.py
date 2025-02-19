@@ -31,7 +31,7 @@ def is_executive_title(title):
 # Streamlit App
 
 def main():
-    st.title("ESI-miEdge Job Title Scrubber (with SalesForce Integration)")
+    st.title("ESI-miEdge Job Title Scrubber (with Salesforce Integration)")
     st.write("Upload your **Excel/CSV** file from miEdge, auto-select **executive roles**, and download the cleaned file.")
 
     # Step 1: Upload File
